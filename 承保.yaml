@@ -1,0 +1,20 @@
+default:
+  payload2:
+    requestId: "916a1298-fad0-4651-b3e0-17726bd93ed5"
+    data:
+      orderId: "661264657088417696"
+      tradeInfo:
+        amount: "357"
+        bankNo: "99012130"
+        bkSerial: "661264657088417696"
+        bkTranDate: "2021-07-16"
+        bkTranTime: "00:22:44"
+        merchantNo: "1370377702"
+        payType: "D"
+        paymentMethods: "JKQB"
+        orderNo: "661264657088417696"
+      renewalInfo:
+        bankNo: "105"
+        accountName: "吃饭的"
+        accountNo: "123456"
+    c: "WI"

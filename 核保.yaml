@@ -1,0 +1,67 @@
+default:
+  payload1:
+    requestId: "hebaojiaoyanma_3453946894536"
+    c: "WI"
+    data:
+      productId: "A100000013"
+      outChannelOrderId: "66323958403338552251"
+      effDate: "2020-12-20"
+      applyDate: "2020-12-19"
+      totalPremium: "624.00"
+      isNoticeConfirm: "Y"
+      isShareCoverage: "N"
+      discount: "1"
+      applicant:
+        name: "刘建汉"
+        birthday: "1988-12-07"
+        sex: "M"
+        idType: "1"
+        idno: "51310119881207121X"
+        contactInfo:
+          mobile: "16351656161"
+          email: "123@qq.com"
+          contactAddress:
+            provinceCode: "110000"
+            cityCode: "110000"
+            areaCode: "110101"
+        extend:
+          taxType: "null"
+          realCheckType: "1"
+      insurants:
+        - seqno: "1"
+          name: "刘建汉"
+          birthday: "1988-12-07"
+          sex: "M"
+          idType: "1"
+          idno: "51310119881207121X"
+          socialSecurity: "Y"
+          relationshipWithApplicant: "1"
+          relationshipWithPrimaryInsurant: "1"
+          contactInfo:
+            email: "123@qq.com"
+          coverages:
+            - planType: "0"
+              sumInsured: "100000.00"
+              benLevel: "09"
+              period: "12"
+              periodDay: "0"
+              paymentPeriod: "12"
+              paymentPeriodDay: "0"
+              actualPrem: "624.00"
+              units: ""
+          healthNotes:
+            - questionId: "P19100001"
+              answer: "Y"
+              healthNoteSeq: "1"
+          isRenewal: "N"
+          extend:
+            realCheckType: "1"
+          realCheck: true
+      serviceAgreementInfo:
+        premType: "5"
+      authInfo:
+        initialChargeMode: "9"
+      others:
+        imgCheckType: "1"
+        assignEffdate: "Y"
+        extraInfo: {}
