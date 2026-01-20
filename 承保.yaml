@@ -2,7 +2,7 @@ default:
   payload2:
     requestId: "916a1298-fad0-4651-b3e0-17726bd93ed5"
     data:
-      orderId: "661264657088417696"
+      orderId: "{{ORDER_ID}}"
       tradeInfo:
         amount: "357"
         bankNo: "99012130"

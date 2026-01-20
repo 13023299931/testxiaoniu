@@ -1,0 +1,77 @@
+提取到的orderId: 660231060922091806
+=== 替换前配置 ===
+原始orderId: {{ORDER_ID}}
+=== 替换前的YAML字符串 ===
+default:
+  payload2:
+    c: WI
+    data:
+      orderId: '{{ORDER_ID}}'
+      renewalInfo:
+        accountName: 吃饭的
+        accountNo: '123456'
+        bankNo: '105'
+      tradeInfo:
+        amount: '357'
+        bankNo: '99012130'
+        bkSerial: '661264657088417696'
+        bkTranDate: '2021-07-16'
+        bkTranTime: 00:22:44
+        merchantNo: '1370377702'
+        orderNo: '661264657088417696'
+        payType: D
+        paymentMethods: JKQB
+    requestId: 916a1298-fad0-4651-b3e0-17726bd93ed5
+
+✅ 使用字符串替换成功
+=== 替换后的YAML字符串 ===
+default:
+  payload2:
+    c: WI
+    data:
+      orderId: '660231060922091806'
+      renewalInfo:
+        accountName: 吃饭的
+        accountNo: '123456'
+        bankNo: '105'
+      tradeInfo:
+        amount: '357'
+        bankNo: '99012130'
+        bkSerial: '661264657088417696'
+        bkTranDate: '2021-07-16'
+        bkTranTime: 00:22:44
+        merchantNo: '1370377702'
+        orderNo: '661264657088417696'
+        payType: D
+        paymentMethods: JKQB
+    requestId: 916a1298-fad0-4651-b3e0-17726bd93ed5
+
+替换已生效，{{ORDER_ID}}已被替换
+=== 替换后配置 ===
+新orderId: 660231060922091806
+✅ orderId替换成功
+=== 实际发送的payload ===
+{
+  "c": "WI",
+  "data": {
+    "orderId": "660231060922091806",
+    "renewalInfo": {
+      "accountName": "吃饭的",
+      "accountNo": "123456",
+      "bankNo": "105"
+    },
+    "tradeInfo": {
+      "amount": "357",
+      "bankNo": "99012130",
+      "bkSerial": "661264657088417696",
+      "bkTranDate": "2021-07-16",
+      "bkTranTime": "00:22:44",
+      "merchantNo": "1370377702",
+      "orderNo": "661264657088417696",
+      "payType": "D",
+      "paymentMethods": "JKQB"
+    }
+  },
+  "requestId": "916a1298-fad0-4651-b3e0-17726bd93ed5"
+}
+第二个接口请求成功
