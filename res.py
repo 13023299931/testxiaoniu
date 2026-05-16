@@ -90,7 +90,7 @@ def extract_orderid_with_jsonpath(response_data):
     从响应数据中提取orderId
     """
     try:
-        # 直接提取 orderId，不需要 jsonpath
+        # 直接提取 orderId或者使用jsonpath技术
         if isinstance(response_data, dict) and 'data' in response_data and 'orderId' in response_data['data']:
             orderid = response_data['data']['orderId']
             logging.info(f"提取到的orderId: {orderid}")

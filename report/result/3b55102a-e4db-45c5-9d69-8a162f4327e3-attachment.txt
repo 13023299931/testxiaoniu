@@ -1,4 +1,4 @@
-提取到的orderId: 660231060922091806
+提取到的orderId: 660044443442377890
 === 替换前配置 ===
 原始orderId: {{ORDER_ID}}
 === 替换前的YAML字符串 ===
@@ -29,7 +29,7 @@ default:
   payload2:
     c: WI
     data:
-      orderId: '660231060922091806'
+      orderId: '660044443442377890'
       renewalInfo:
         accountName: 吃饭的
         accountNo: '123456'
@@ -48,13 +48,13 @@ default:
 
 替换已生效，{{ORDER_ID}}已被替换
 === 替换后配置 ===
-新orderId: 660231060922091806
+新orderId: 660044443442377890
 ✅ orderId替换成功
 === 实际发送的payload ===
 {
   "c": "WI",
   "data": {
-    "orderId": "660231060922091806",
+    "orderId": "660044443442377890",
     "renewalInfo": {
       "accountName": "吃饭的",
       "accountNo": "123456",

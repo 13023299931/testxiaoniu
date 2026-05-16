@@ -1,5 +1,5 @@
-2025-11-23 11:18:03,748 - INFO - 开始请求URL: http://117.72.72.134:8080/gateway/mcp/outChannel/validate?c=WI
-2025-11-23 11:18:03,749 - INFO - 请求报文: {
+INFO     root:res.py:40 开始请求URL: http://117.72.72.134:8080/gateway/mcp/outChannel/validate?c=WI
+INFO     root:res.py:41 请求报文: {
   "requestId": "hebaojiaoyanma_3453946894536",
   "c": "WI",
   "data": {
@@ -85,17 +85,17 @@
     }
   }
 }
-2025-11-23 11:18:03,834 - INFO - 响应状态码: 200
-2025-11-23 11:18:03,834 - INFO - 响应头: {'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Sun, 23 Nov 2025 03:18:02 GMT', 'Keep-Alive': 'timeout=60', 'Connection': 'keep-alive'}
-2025-11-23 11:18:03,834 - INFO - 请求成功
-2025-11-23 11:18:03,834 - INFO - 响应正文: {"originalMsg":null,"extrCode":null,"extrMsg":null,"requestId":null,"returnCode":"00","returnMsg":"成功","data":{"orderId":"660231060922091806","realCheckResult":null,"tipsInfos":null}}
-2025-11-23 11:18:03,834 - INFO - 生成的订单号为:660231060922091806
-2025-11-23 11:18:03,834 - INFO - 提取到的orderId: 660231060922091806
-2025-11-23 11:18:03,838 - INFO - 开始请求URL: http://117.72.72.134:8080/gateway/mcp/outChannel/accept?c=WI
-2025-11-23 11:18:03,839 - INFO - 请求报文: {
+INFO     root:res.py:45 响应状态码: 200
+INFO     root:res.py:46 响应头: {'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 14 Mar 2026 01:35:50 GMT', 'Keep-Alive': 'timeout=60', 'Connection': 'keep-alive'}
+INFO     root:res.py:49 请求成功
+INFO     root:res.py:52 响应正文: {"originalMsg":null,"extrCode":null,"extrMsg":null,"requestId":null,"returnCode":"00","returnMsg":"成功","data":{"orderId":"660044443442377890","realCheckResult":null,"tipsInfos":null}}
+INFO     root:res.py:60 生成的订单号为:660044443442377890
+INFO     root:res.py:96 提取到的orderId: 660044443442377890
+INFO     root:res.py:40 开始请求URL: http://117.72.72.134:8080/gateway/mcp/outChannel/accept?c=WI
+INFO     root:res.py:41 请求报文: {
   "c": "WI",
   "data": {
-    "orderId": "660231060922091806",
+    "orderId": "660044443442377890",
     "renewalInfo": {
       "accountName": "吃饭的",
       "accountNo": "123456",
@@ -115,10 +115,10 @@
   },
   "requestId": "916a1298-fad0-4651-b3e0-17726bd93ed5"
 }
-2025-11-23 11:18:03,901 - INFO - 响应状态码: 200
-2025-11-23 11:18:03,901 - INFO - 响应头: {'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Sun, 23 Nov 2025 03:18:02 GMT', 'Keep-Alive': 'timeout=60', 'Connection': 'keep-alive'}
-2025-11-23 11:18:03,901 - INFO - 请求成功
-2025-11-23 11:18:03,901 - INFO - 响应正文: {"originalMsg":null,"extrCode":null,"extrMsg":null,"requestId":null,"returnCode":"00","returnMsg":"成功","data":{"policyNo":"920261941568287065"}}
-2025-11-23 11:18:03,901 - INFO - 生成的保单号为:920261941568287065
-2025-11-23 11:18:03,902 - INFO - 承保成功，保单号: 920261941568287065
-2025-11-23 11:18:03,902 - INFO - 测试用例通过
+INFO     root:res.py:45 响应状态码: 200
+INFO     root:res.py:46 响应头: {'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 14 Mar 2026 01:35:50 GMT', 'Keep-Alive': 'timeout=60', 'Connection': 'keep-alive'}
+INFO     root:res.py:49 请求成功
+INFO     root:res.py:52 响应正文: {"originalMsg":null,"extrCode":null,"extrMsg":null,"requestId":null,"returnCode":"00","returnMsg":"成功","data":{"policyNo":"929413722233488056"}}
+INFO     root:res.py:65 生成的保单号为:929413722233488056
+INFO     root:test_py.py:141 承保成功，保单号: 929413722233488056
+INFO     root:test_py.py:142 测试用例通过
